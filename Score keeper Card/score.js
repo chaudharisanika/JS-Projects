@@ -17,8 +17,9 @@ button1.addEventListener('click',function(){
             isgameOver=true;
             player1.classList.add('winner')
             player2.classList.add('loser')
+            button1.style.backgroundColor="green"
+            button2.style.backgroundColor="red"
         }
-        
     }
     player1.innerText=p1Score;
     
@@ -31,6 +32,8 @@ button2.addEventListener('click',function(){
             isgameOver=true;
             player2.classList.add('winner')
             player1.classList.add('loser')
+            button1.style.backgroundColor="red"
+            button2.style.backgroundColor="green"
         }
        
     }
