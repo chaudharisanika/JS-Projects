@@ -19,6 +19,8 @@ button1.addEventListener('click',function(){
             player2.classList.add('loser')
             button1.style.backgroundColor="green"
             button2.style.backgroundColor="red"
+            button1.disabled=true;
+            button2.disabled=true;
         }
     }
     player1.innerText=p1Score;
@@ -34,6 +36,8 @@ button2.addEventListener('click',function(){
             player1.classList.add('loser')
             button1.style.backgroundColor="red"
             button2.style.backgroundColor="green"
+            button1.disabled=true;
+            button2.disabled=true;
         }
        
     }
@@ -54,4 +58,6 @@ function resetf(){
     player2.innerText=0;
     player1.classList.remove('winner','loser')
     player2.classList.remove('winner','loser')
+    button1.style.backgroundColor="rgb(184, 44, 68)"
+    button2.style.backgroundColor="blue"
 }
