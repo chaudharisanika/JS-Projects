@@ -12,20 +12,38 @@
 .resume{
     width:800px;
     height: 800px;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-left: 400px;
+    display: flex;
+    flex-direction: row;
 }
 .resume .box1{
     width:370px;
     height: 800px;
-    background-color: rgb(5, 5, 78);
+    background-color: rgb(8, 8, 35);
 }
-.resume .box1 h1{
+.resume .box1 h2{
     color: white;
     padding-top: 30px;
     margin-left: 10px;
 }
-.resume .box1 #title p{
+.resume .box1 p{
     color: white;
-    margin-top: 5px;
+   padding-top: 0px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.resume .box2{
+    width:430px;
+    height:800px;
+    background-color: rgb(221, 230, 232);
+}
+.resume .box2 h2{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.resume .box2 p{
+    margin-top: 10px;
+    margin-left: 30px;
 }
