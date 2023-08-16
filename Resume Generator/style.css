@@ -57,12 +57,18 @@ h1{
     color: white;
     margin-top: 24px;
 }
-.skill{
+/* .skill{
     width:560px;
-    background-color: blueviolet;
+    
+} */
+#achive,#skill{
+    width:560px;
 }
-#achive{
-    width:560px;
+#generate{
+    background-color: rgb(12, 12, 34);
+    color: white;
+    font-size: x-large;
+    border: none;
 }
 
 
