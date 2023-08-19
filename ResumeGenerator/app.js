@@ -25,6 +25,14 @@ const degreer=document.querySelector("#degreer")
 const about = document.querySelector("#about")
 const aboutr = document.querySelector("#aboutr")
 const generate=document.querySelector("#generate")
+
+const btn1 = document.querySelector("#btn1")
+const skill2=document.querySelector("#skill2")
+btn1.addEventListener("click",function(){
+    const newSkill = document.createElement("NEW")
+    newSkill.classList.add('skill1')
+    skill2.append(newSkill)
+})
 generate.addEventListener("click",function(){
     // e.preventDefault();
     namer.innerText=name1.value;
@@ -51,6 +59,4 @@ generate.addEventListener("click",function(){
     degreer.innerText=degree.value
     yearr.innerText=`${year.value} - present`
     aboutr.innerText=about.value
-    
-
 })

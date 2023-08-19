@@ -113,3 +113,8 @@ h1{
     margin-top: 10px;
     margin-left: 30px;
 }
+.skill1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

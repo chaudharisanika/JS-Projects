@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Build Your Resume within minutes</h1>
-    
+    <form action="#home">
     <div class="inputt">
       <div class="part1">
       <h2>Basic Info</h2>
@@ -17,7 +17,7 @@
           <div class="row">
             <div class="col">
           <label for="name">Full Name</label><br>
-          <input type="text" id="name">
+          <input type="text" id="name" name="name">
         </div>
         <div class="col">
           <label for="title">Title</label><br>
@@ -75,9 +75,11 @@
             </div>
           </div><hr>
           <div class="row">
-            <div class="col">
+            <div class="col skill2">
+              
               <label for="skill">Skills</label><br>
               <input type="text" id="skill">
+            
             </div>
             <div class="col">
               <button id="btn1">+</button>
@@ -95,7 +97,8 @@
         </div>
         
     </div>
-    <div >
+  </form>
+    <div>
       <button id="generate">Generate Resume</button>
     </div>
   </form>
