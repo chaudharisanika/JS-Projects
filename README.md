@@ -3,4 +3,6 @@
 
 2. [Score Keeper](https://chaudharisanika.github.io/JS-Projects/ScoreKeeper/)
 
-3. [TV Show Search](https://chaudharisanika.github.io/JS-Projects/TVShowsearch/)
+3. [Calculator](https://chaudharisanika.github.io/JS-Projects/Calculator/)
+
+4. [TV Show Search](https://chaudharisanika.github.io/JS-Projects/TVShowsearch/)
